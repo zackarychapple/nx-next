@@ -9,7 +9,7 @@ pipeline {
                 stage('Main') {
                     agent any
                     steps {
-                        sh "npm i"
+                        sh "npm ci"
 //                         sh "npx nx workspace-lint"
 //                         sh "npx nx affected --base=HEAD~1 --target=lint --parallel=3"
 //                         sh "npx nx affected --base=HEAD~1 --target=test --parallel=3"
